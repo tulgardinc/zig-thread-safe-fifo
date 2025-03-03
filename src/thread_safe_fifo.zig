@@ -1,3 +1,5 @@
+//! A threadsafe fifo queue implementation
+
 const std = @import("std");
 const Value = std.atomic.Value;
 
